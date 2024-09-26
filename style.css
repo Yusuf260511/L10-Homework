@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 82px;
+    background-color: black;
+    color: white;
+    margin: 0 auto;
+    display: flex;
+    padding-left: 57px;
+    padding-right: 57px;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-top: 18px;
+    margin-bottom: 18px;
+    width: 56px;
+    height: 46px;
+}
+
+.select1 {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: black;
+    border: 0;
+}
+
+.language {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.internet {
+    width: 30px;
+    height: 30px;
+}
+
+.playnow {
+    width: 192px;
+    height: 82px;
+    background-color: #F1A900;
+    border: 0;
+    color: black;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.langbut {
+    display: flex;
+    gap: 30px;
+}
+
+nav {
+    padding: 14px 295px;
+    width: 100%;
+    height: 44px;
+    background-color: #222222;
+    color: white;
+}
+
+nav ul {
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gameinfo {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    background-color: #222222;
+    border: 0;
+}
+
+.center {
+    height: 797px;
+    background-image: url(img/image\ 5.png);
+    background-size: cover;
+    padding-top: 349px;
+    display: flex;
+    flex-direction: column;
+    gap: 31px;
+}
+
+.pc {
+    width: 235px;
+    height: 73px;
+    background-color: #F1A900;
+    color: black;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    border: 0;
+}
+
+.console {
+    width: 235px;
+    height: 73px;
+    background-color: black;
+    color: white;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    border: 0;
+}
+
+.pcconsole {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+}
+
+.n3 {
+    width: 966px;
+    height: 202px;
+    background-color: #F1A90054;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    font-weight: 700;
+    font-size: 64px;
+    border: 0;;
+    color: white;
+    border-radius: 10px;
+    margin: 0 270px;
+}
+
+footer {
+    height: 101px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 57px;
+    padding-right: 100px;
+}
+
+.n2 {
+    margin-top: 28px;
+}
+
+.messengers img {
+    height: 24px;
+    width: 24px;
+}
+
+.messengers {
+    margin-top: 36px;
+    margin-bottom: 41px;
+    display: flex;
+    gap: 52px;
+}
